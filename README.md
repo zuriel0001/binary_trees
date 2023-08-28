@@ -1,1 +1,1 @@
-Binary Tress
+Binary Trees
