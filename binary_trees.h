@@ -43,7 +43,6 @@ typedef struct link_s
 	struct link_s *next;
 } link_t;
 
-/*  ----------------- mandatory task ---------------------------------*/
 void binary_tree_print(const binary_tree_t *);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
@@ -74,5 +73,6 @@ void linked_node(link_t **head, const binary_tree_t *tree, size_t level);
 size_t binary_tree_height(const binary_tree_t *tree);
 int binary_tree_is_complete(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
