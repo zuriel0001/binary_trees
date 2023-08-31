@@ -1,12 +1,12 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height_bal - Measures height of a binary tree for a balance tree
+ * binary_tree_height_b - Measures height of a binary tree for a balance tree
  * @tree: A pointer to the root node of the tree
  * Return: the height
  */
 
-size_t binary_tree_height_bal(const binary_tree_t *tree)
+size_t binary_tree_height_b(const binary_tree_t *tree)
 {
 	size_t a, b = 0;
 
