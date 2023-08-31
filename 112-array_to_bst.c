@@ -14,7 +14,7 @@ bst_t *array_to_bst(int *array, size_t size)
 	size_t i = 0;
 	bst_t *bst_root;
 
-	root = NULL;
+	bst_root = NULL;
 	if (size == 0)
 	{
 		return (NULL);
