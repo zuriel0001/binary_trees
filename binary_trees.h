@@ -72,5 +72,7 @@ void recursion(link_t **head, const binary_tree_t *tree);
 void linked_node(link_t **head, const binary_tree_t *tree, size_t level);
 void linked_node(link_t **head, const binary_tree_t *tree, size_t level);
 size_t binary_tree_height(const binary_tree_t *tree);
+int binary_tree_is_complete(const binary_tree_t *tree);
+
 
 #endif /* _BINARY_TREES_H_ */
