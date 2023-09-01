@@ -49,7 +49,7 @@ int bal_avl(const binary_tree_t *tree, int lower, int high)
 		}
 		left_height = binary_tree_height(tree->left);
 		right_height = binary_tree_height(tree->right);
-		balancer = height_l > right_height ? left_height - right_height :
+		balancer = left_height > right_height ? left_height - right_height :
 							right_height - left_height;
 		if (balancer > 1)
 		{
