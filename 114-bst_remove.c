@@ -30,8 +30,9 @@ int successor(bst_t *node)
 /**
  * two_children - A function that gets the next successor usi
  *
- * @root: node tat has two children
- * Return: the value found
+ * @root: pointer to node with two children
+ *
+ * Return: the the successor
  */
 int two_children(bst_t *root)
 {
@@ -45,7 +46,7 @@ int two_children(bst_t *root)
 /**
  *remove_type - A function that removes a node depending of its children
  *
- *@root: A pointer to node to remove
+ *@root: A pointer to node to be removed
  *
  * Return: 0 if it has no children or other value if it has
  */
